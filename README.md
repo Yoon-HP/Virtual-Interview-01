@@ -220,25 +220,7 @@ graph TB
 
 ## 📂 프로젝트 구조
 
-```
-src/
-├── main/
-│   ├── java/
-│   │   └── com/yoonhp/newsfeed/
-│   │       ├── controller/     # REST API 컨트롤러
-│   │       ├── service/        # 비즈니스 로직
-│   │       ├── repository/     # 데이터 접근 계층
-│   │       ├── entity/         # JPA 엔티티
-│   │       ├── dto/           # 데이터 전송 객체
-│   │       ├── config/        # 설정 클래스
-│   │       └── NewsfeedApplication.java
-│   └── resources/
-│       ├── application.yml
-│       └── application-{profile}.yml
-└── test/
-    └── java/
-        └── com/yoonhp/newsfeed/
-```
+// todo
 
 ## 🎯 개발 목표
 
