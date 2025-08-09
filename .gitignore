@@ -223,9 +223,6 @@ test-results/
 *.temp
 
 # Configuration files with sensitive data
-application-local.yml
-application-dev.yml
-application-prod.yml
 *.env
 
 # Docker
