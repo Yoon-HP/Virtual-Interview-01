@@ -5,7 +5,7 @@ SNS API 개발 및 테스트를 위한 지원 도구들입니다.
 ## 📁 파일 구성
 
 ### 설정 파일
-- `docker-compose.yml`: MySQL, Redis, RabbitMQ 인프라 설정
+- `docker-compose-local.yml`: MySQL, Redis, RabbitMQ 인프라 설정
 
 ### 관리 스크립트
 - `start.sh`: 테스트 환경 시작 (자동 데이터 삽입, 상태 확인 포함)

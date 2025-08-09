@@ -3,8 +3,8 @@
 echo "=== SNS API 테스트 환경 정지 ==="
 
 # 현재 디렉토리 확인
-if [ ! -f "docker-compose.yml" ]; then
-    echo "❌ docker-compose.yml 파일을 찾을 수 없습니다."
+if [ ! -f "docker-compose-local.yml" ]; then
+    echo "❌ docker-compose-local.yml 파일을 찾을 수 없습니다."
     echo "support 디렉토리에서 실행해주세요."
     exit 1
 fi
